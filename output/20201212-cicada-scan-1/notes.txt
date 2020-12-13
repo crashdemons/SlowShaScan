@@ -1,18 +1,20 @@
 Several scans were ran of different divisions of the full IPv4 address space using two consumer desktops ('Desktop 1' and 'Desktop 2'. 'Desktop 1' was being used while scanning)
 
+IP Addresses were checked in the format A.B.C.D (like 127.0.0.1).
+
 The output logs of those scans are provided in this directory. Prospective scans (which are may are still running or not yet uploaded) will not appear in the directory yet.
 
 File contents:
 sss-cicada1-incomplete.log:
 	scan was run for IP's [0,2147000000) on Desktop 1 but was accidentally cancelled at 28%
 	started ‎Saturday, ‎December ‎12, ‎2020, ‏‎5:33:12 PM (central time)
-	ended ‎Saturday, ‎December ‎12, ‎2020, ‏‎7:04:41 PM
+	ended ‎Saturday, ‎December ‎12, ‎2020, ‏‎7:04:41 PM (interrupted)
 	
 sss-cicada1.log:
 	[prospective] new complete scan on 'Desktop 1' for IP's [0,2147000000)
-	started ‎Saturday, ‎December ‎12, ‎2020, ‏‎5:33:12 PM (central time)
+	started Saturday, ‎December ‎12, ‎2020, ‏‎7:07:32 PM (approximately, file creation time did not update)
 	ended ?
 sss-cicada2.log:
 	[prospective] complete scan on 'Desktop 2' for IP's [2147000000,4294967296)
-	started ‎Saturday, ‎December ‎12, ‎2020, ‏‎5:29:27 PM (central time)
+	started ‎Saturday, ‎December ‎12, ‎2020, ‏‎5:29:27 PM
 	ended ?
