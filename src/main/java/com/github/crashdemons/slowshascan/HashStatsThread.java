@@ -24,7 +24,7 @@ public class HashStatsThread implements Runnable{
     
     @Override
     public void run(){
-        if(HashStats.foundMatch){
+        if(HashStats.allThreadsCompleted){
             System.out.println("cancelling HashStatsThread");
             //task.cancel(true);
             executor.shutdown();

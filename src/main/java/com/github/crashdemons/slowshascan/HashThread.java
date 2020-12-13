@@ -49,7 +49,7 @@ public class HashThread implements Runnable{
     public void run(){
         long hashes = 0;
         String ipv4 = "XXXXXXXXXXXXXXXXXXXXX";
-        for(long i=start;i<end && !HashStats.foundMatch;i++){
+        for(long i=start;i<end && !HashStats.allThreadsCompleted;i++){
 
             ipv4 = 
                     (((byte)(i>>>24))&0xff)+"."+
@@ -70,7 +70,7 @@ public class HashThread implements Runnable{
             }*/
             
             if(settings.targetHash.equals(hash)){
-                HashStats.recordMatch();
+                HashStats.markThreadsCompleted();
                 HashStats.println("hash-match "+ipv4);
                 break;
             }
@@ -85,10 +85,12 @@ public class HashThread implements Runnable{
 
             //System.out.println(ipv4);
         }
+        HashStats.recordThreadCompleted();
         System.out.println("Finished " +  threadName );
     }
     
     public void start () {
+       HashStats.recordThreadStarted();
        System.out.println("Starting " +  threadName );
        if (t == null) {
           t = new Thread (this, threadName);
