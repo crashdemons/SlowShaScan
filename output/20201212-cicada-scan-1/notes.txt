@@ -17,6 +17,6 @@ sss-cicada1.log:
 	started Saturday, ‎December ‎12, ‎2020, ‏‎7:07:32 PM (approximately, file creation time did not update)
 	ended ?
 sss-cicada2.log:
-	[prospective] complete scan on 'Desktop 2' for IP's [2147000000,4294967296)
+	complete scan on 'Desktop 2' for IP's [2147000000,4294967296)
 	started ‎Saturday, ‎December ‎12, ‎2020, ‏‎5:29:27 PM
-	ended ?
+	ended Saturday, ‎December ‎12, ‎2020, ‏‎11:00:58 PM (completed without match)
