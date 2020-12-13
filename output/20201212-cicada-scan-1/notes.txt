@@ -8,7 +8,7 @@ The output logs of those scans are provided in this directory.
 ===================================================================
 Any logs marked as "Prospective" will not appear in the directory yet because they were still running last time the author checked, or the author has not had a chance to upload the results yet.
 
-Progress updates shown in logs are displayed on 5 minute intervals.
+Progress updates shown in logs are displayed on 5 minute intervals.  IP Addresses are displayed and iterated as integers, but are hashed in textual respresentation (A.B.C.D).
 
 Logs may report a number like "99%" complete when they are actually 100% complete due to a display bug. See https://github.com/crashdemons/SlowShaScan/issues/2 - "Finished" threads indicate completion.
 ===================================================================
