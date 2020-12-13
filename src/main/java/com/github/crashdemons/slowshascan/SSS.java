@@ -12,7 +12,7 @@ import java.net.InetAddress;
  * @author crashdemons (crashenator at gmail.com)
  */
 public class SSS {
-    public static final String CICADA_DEEP_WEB_HASH = "36367763ab73783c7af284446c59466b4cd653239a311cb7116d4618dee09a8425893dc7500b464fdaf1672d7bef5e891c6e2274568926a49fb4f45132c2a8b4".toUpperCase();
+    public static final String VALIDATION_HASH = "7ac2a0346e5f13a070e78167e3b96c7ddd121289dfe8276a9112c7db7f3882052575cb83b001a07e66d29575ddff0b70fbc07fd3f64bc44c5101dfe7eb6352e6".toUpperCase();//1.2.3.4
     
     
     public static void main(String[] args){
@@ -26,7 +26,7 @@ public class SSS {
         
         System.out.println("SlowShaScan "+threads+" threads IP range ["+ipstart+","+ipbound+")");
         
-        HashSettings settings = new HashSettings("SHA-512", CICADA_DEEP_WEB_HASH, 10000L, 5*60, threads);
+        HashSettings settings = new HashSettings("SHA-512", VALIDATION_HASH, 10000L, 5*60, threads);
         
         HashThreadManager threadManager = new HashThreadManager(settings);
         
