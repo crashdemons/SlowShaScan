@@ -4,11 +4,14 @@ IP Addresses were checked in the format A.B.C.D (like 127.0.0.1).
 
 The target hash for this scan was the "Deep Web Hash" from the second part of Liber Primus, using SHA512.
 
-The output logs of those scans are provided in this directory. Prospective scans (which are may are still running or not yet uploaded) will not appear in the directory yet.
+The output logs of those scans are provided in this directory. 
+===================================================================
+Any logs marked as "Prospective" will not appear in the directory yet because they were still running last time the author checked, or the author has not had a chance to upload the results yet.
+
+Progress updates shown in logs are displayed on 5 minute intervals.
 
 Logs may report "99%" complete when they are actually 100% complete due to a display bug. See https://github.com/crashdemons/SlowShaScan/issues/2 - "Finished" threads indicate completion.
-
-
+===================================================================
 File contents:
 sss-cicada1-incomplete.log:
 	scan was run for IP's [0,2147000000) on Desktop 1 but was accidentally cancelled at 28%
