@@ -6,6 +6,9 @@ The target hash for this scan was the "Deep Web Hash" from the second part of Li
 
 The output logs of those scans are provided in this directory. Prospective scans (which are may are still running or not yet uploaded) will not appear in the directory yet.
 
+Logs may report "99%" complete when they are actually 100% complete due to a display bug. See https://github.com/crashdemons/SlowShaScan/issues/2 - "Finished" threads indicate completion.
+
+
 File contents:
 sss-cicada1-incomplete.log:
 	scan was run for IP's [0,2147000000) on Desktop 1 but was accidentally cancelled at 28%
