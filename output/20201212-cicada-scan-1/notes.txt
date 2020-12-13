@@ -10,7 +10,7 @@ Any logs marked as "Prospective" will not appear in the directory yet because th
 
 Progress updates shown in logs are displayed on 5 minute intervals.
 
-Logs may report "99%" complete when they are actually 100% complete due to a display bug. See https://github.com/crashdemons/SlowShaScan/issues/2 - "Finished" threads indicate completion.
+Logs may report a number like "99%" complete when they are actually 100% complete due to a display bug. See https://github.com/crashdemons/SlowShaScan/issues/2 - "Finished" threads indicate completion.
 ===================================================================
 File contents:
 sss-cicada1-incomplete.log:
@@ -19,9 +19,9 @@ sss-cicada1-incomplete.log:
 	ended ‎Saturday, ‎December ‎12, ‎2020, ‏‎7:04:41 PM (interrupted)
 	
 sss-cicada1.log:
-	[prospective] new complete scan on 'Desktop 1' for IP's [0,2147000000)
+	new complete scan on 'Desktop 1' for IP's [0,2147000000)
 	started Saturday, ‎December ‎12, ‎2020, ‏‎7:07:32 PM (approximately, file creation time did not update)
-	ended ?
+	ended  ‎Saturday, ‎December ‎12, ‎2020, ‏‎11:38:05 PM (completed without match)
 sss-cicada2.log:
 	complete scan on 'Desktop 2' for IP's [2147000000,4294967296)
 	started ‎Saturday, ‎December ‎12, ‎2020, ‏‎5:29:27 PM
