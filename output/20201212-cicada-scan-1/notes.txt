@@ -2,6 +2,8 @@ Several scans were ran of different divisions of the full IPv4 address space usi
 
 IP Addresses were checked in the format A.B.C.D (like 127.0.0.1).
 
+The target hash for this scan was the "Deep Web Hash" from the second part of Liber Primus, using SHA512.
+
 The output logs of those scans are provided in this directory. Prospective scans (which are may are still running or not yet uploaded) will not appear in the directory yet.
 
 File contents:
